@@ -1,4 +1,5 @@
 def get_dictionary_key(list_dict: list, state: str = "EXECUTED") -> list:
+
     """функция которая, фильтрует список по ключу"""
     filtred_list = []
     for ld in list_dict:
